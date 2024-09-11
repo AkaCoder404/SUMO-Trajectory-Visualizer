@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <input>
+        <!-- The network file -->
+        <net-file value="simple_network.net.xml"/>
+        
+        <!-- The route file -->
+        <route-files value="simple_route.rou.xml"/>
+    </input>
+    
+    <time>
+        <!-- Duration of the simulation -->
+        <begin value="0"/>
+        <end value="3600"/>
+    </time>
+    
+    <!-- Additional options -->
+    <output>
+        <!-- Specify output files for statistics or results -->
+    </output>
+    
+    <!-- Simulation settings -->
+    <processing>
+        <!-- Additional options for the simulation -->
+    </processing>
+</configuration>

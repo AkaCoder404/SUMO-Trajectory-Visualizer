@@ -1,0 +1,9 @@
+.vscode
+.DS_Store
+temp.*
+data/*
+maps/*
+cache/
+*/cache/*
+
+__pycache__/*
