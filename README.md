@@ -15,8 +15,8 @@ This repository contains source code to download popular datasets in (privacy-pr
       <td><img src="./vis/geolife_driver_000_folium_heatmap.png" alt="Image 6" width="150" height="150"></td>
     </tr>
     <tr>
-      <td><img src="image7.png" alt="Image 7" width="150" height="150"></td>
-      <td><img src="image8.png" alt="Image 8" width="150" height="150"></td>
+      <td><img src="./vis/chengdu_osm_core.png" alt="Image 7" width="150" height="150"></td>
+      <td><img src="./vis/chengdu_osmnx_core.png" alt="Image 8" width="150" height="150"></td>
       <td><img src="image9.png" alt="Image 9" width="150" height="150"></td>
     </tr>
   </table>

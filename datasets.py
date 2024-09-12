@@ -6,6 +6,7 @@ SOURCE_TDRIVE = "https://www.microsoft.com/en-us/research/publication/t-drive-tr
 SOURCE_PORTOCITY = "https://archive.ics.uci.edu/dataset/339/taxi+service+trajectory+prediction+challenge+ecml+pkdd+2015"
 SOURCE_GEOLIFE = "https://www.microsoft.com/en-us/download/confirmation.aspx?id=52367"
 SOURCE_FOURSQUARE = "https://sites.google.com/site/yangdingqi/home/foursquare-dataset"
+SOURCE_SANFRANCISCO = "https://ieee-dataport.org/open-access/crawdad-epflmobility"
 
 # 
 TDRIVE = "https://1drv.ms/u/s!AsMG2OU-eID5gXbRS_7fXyftZX1D?e=eSbum2"
@@ -20,6 +21,8 @@ NYC_BIKE = "https://citibikenyc.com/system-data"
 # Baidu Drive (China)
 BAIDU_TDRIVE = ""
 BAIDU_PORTOCITY = ""
+BAIDU_GEOLIFE = ""
+BAIDU_FORSQUARE = ""
 
 
 def check_file_exists(filename):
