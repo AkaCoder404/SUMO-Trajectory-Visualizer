@@ -1,6 +1,17 @@
-# SUMO Trajectory Visualizer
+#  Trajectory Data Research
 
-This repository contains source code to download popular datasets in (privacy-preserving) trajectory data research. Some popular papers are also included for easy reference.
+## Background
+
+This repository maintains the latest updates (datasets, papers, codes) on trajectory data research, from trajectory classification, clustering, outlier detection, to pattern mining (single and group movement behavior analysis, trajectory prediction, frequent / periodic sequential patterns, etc). This page will also focus on privacy preserving trajectory data collection/publication, including fields such as k-anonmity, differential privacy, and synthesis.
+
+This repository also contains
+- Overview of popular datasets in this research field (and where to find them)
+- Explanatory data analysis on some of the popular datasets
+- Categorize and structure on going research in this field
+- Experiments to implement or re-implement methods introduced in the different applications of this research field, hopefully to perform some comparisons.
+- And more!
+
+Maintained by AkaCoder404. Feel free to make pull requests to add new resources!
 
 <div style="text-align: center;">
   <table>
@@ -15,8 +26,8 @@ This repository contains source code to download popular datasets in (privacy-pr
       <td><img src="./vis/geolife_driver_000_folium_heatmap.png" alt="Image 6" width="150" height="150"></td>
     </tr>
     <tr>
-      <td><img src="./vis/chengdu_osm_core.png" alt="Image 7" width="150" height="150"></td>
-      <td><img src="./vis/chengdu_osmnx_core.png" alt="Image 8" width="150" height="150"></td>
+      <td><img src="./imgs/chengdu_osm_core.png" alt="Image 7" width="150" height="150"></td>
+      <td><img src="./imgs/chengdu_osmnx_core.png" alt="Image 8" width="150" height="150"></td>
       <td><img src="image9.png" alt="Image 9" width="150" height="150"></td>
     </tr>
   </table>
@@ -24,8 +35,25 @@ This repository contains source code to download popular datasets in (privacy-pr
 
 ## Project Structure
 - `vis/` - contains mostly `.ipynb` files to visualize specific datasets and do some exploratory data analysis (EDA) on them
+- `imgs/` - contains saved images
 - `config` - contains config files for SUMO
 - `datasets.py` - contains code and resources to download various datasets
+
+## Applications
+- Trajectory Data Classification
+- Trajectory Data
+
+
+## Datasets
+Here is a collection of trajectory datasets used (and where to download)
+| Type           | Datasets | Reference |
+| -------------- | -------- | --------- |
+| Real           |          |           |
+| Semi-Synthetic |          |           |
+| Synthetic      |          |           |
+
+
+
 
 
 ## Environment Setup
@@ -69,11 +97,3 @@ Use --help to get the list of options.
 ## Running
 Built with Python 3.12
 
-
-## Datasets
-Here is a collection of trajectory datasets used (and where to download)
-| Type           | Datasets | Reference |
-| -------------- | -------- | --------- |
-| Real           |          |           |
-| Semi-Synthetic |          |           |
-| Synthetic      |          |           |
