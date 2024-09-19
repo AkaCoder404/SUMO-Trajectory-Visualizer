@@ -21,9 +21,9 @@ Maintained by AkaCoder404. Feel free to make pull requests to add new resources!
       <td><img src="./vis/porto_sumo_20240908.png" alt="Image 3" width="150" height="150"></td>
     </tr>
     <tr>
-      <td><img src="./vis/geolife_default.png" alt="Image 4" width="150" height="150"></td>
+      <td><img src="./imgs/geolife_osm_core.png" alt="Image 4" width="150" height="150"></td>
       <td><img src="./vis/geolife_driver_000.png" alt="Image 5" width="150" height="150"></td>
-      <td><img src="./vis/geolife_driver_000_folium_heatmap.png" alt="Image 6" width="150" height="150"></td>
+      <td><img src="./vis/geolife_driver_000_r5_folium_heatmap.png" alt="Image 6" width="150" height="150"></td>
     </tr>
     <tr>
       <td><img src="./imgs/chengdu_osm_core.png" alt="Image 7" width="150" height="150"></td>
@@ -41,7 +41,8 @@ Maintained by AkaCoder404. Feel free to make pull requests to add new resources!
 
 ## Applications
 - Trajectory Data Classification
-- Trajectory Data
+- Trajectory Data Clustering
+- Trajectory Data Mining
 
 
 ## Datasets
@@ -51,9 +52,6 @@ Here is a collection of trajectory datasets used (and where to download)
 | Real           |          |           |
 | Semi-Synthetic |          |           |
 | Synthetic      |          |           |
-
-
-
 
 
 ## Environment Setup
