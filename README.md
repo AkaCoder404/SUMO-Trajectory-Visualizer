@@ -56,6 +56,7 @@ Here is a collection of trajectory datasets used (and where to download)
 
 ## Environment Setup
 ### Python
+Built with Python 3.12
 
 Use conda to install requirements.
 ```bash
@@ -65,21 +66,10 @@ pip install -r requirements
 ```
 
 ### SUMO
-Download SUMO. This was run on mac "https://sumo.dlr.de/docs/Installing/index.html#macos". 
+Refer to [sumo download documentation](https://sumo.dlr.de/docs/Installing/index.html) for downloading details.
 
-```
-brew update
-brew install --cask xquartz
-brew tap dlr-ts/sumo
-brew install sumo
+Refer to [sumo tracli documentation](https://sumo.dlr.de/docs/TraCI/Interfacing_TraCI_from_Python.html) for interfacing with sumo using python
 
-In order to let X11 start automatically whenever a GUI-based SUMO application
-(e.g., "sumo-gui") is called, you need to log out and in again.
-Alternatively, start X11 manually by pressing cmd-space and entering "XQuartz".
-
-Don't forget to set your SUMO_HOME environment variable:
-  export SUMO_HOME="/opt/homebrew/opt/sumo/share/sumo"
-```
 
 ```bash
 [DPSynthTraj] % sumo
@@ -91,7 +81,4 @@ Use --help to get the list of options.
 ```
 
 
-
-## Running
-Built with Python 3.12
 
