@@ -1,6 +1,6 @@
 #  Trajectory Data Research
 
-## Background
+# Background
 
 This repository maintains the latest updates (datasets, papers, codes) on trajectory data research, from trajectory classification, clustering, outlier detection, to pattern mining (single and group movement behavior analysis, trajectory prediction, frequent / periodic sequential patterns, etc). This page will also focus on privacy preserving trajectory data collection/publication, including fields such as k-anonmity, differential privacy, and synthesis.
 
@@ -16,14 +16,14 @@ Maintained by AkaCoder404. Feel free to make pull requests to add new resources!
 <div style="text-align: center;">
   <table>
     <tr>
-      <td><img src="./vis/porto_default.png" alt="Image 1" width="150" height="150"></td>
-      <td><img src="./vis/portocity_all.png" alt="Image 2" width="150" height="150"></td>
-      <td><img src="./vis/porto_sumo_20240908.png" alt="Image 3" width="150" height="150"></td>
+      <td><img src="./imgs/porto_default.png" alt="Image 1" width="150" height="150"></td>
+      <td><img src="./imgs/portocity_all.png" alt="Image 2" width="150" height="150"></td>
+      <td><img src="./imgs/porto_taxiid_20000589_kdegraph.png" alt="Image 3" width="150" height="150"></td>
     </tr>
     <tr>
       <td><img src="./imgs/geolife_osm_core.png" alt="Image 4" width="150" height="150"></td>
-      <td><img src="./vis/geolife_driver_000.png" alt="Image 5" width="150" height="150"></td>
-      <td><img src="./vis/geolife_driver_000_r5_folium_heatmap.png" alt="Image 6" width="150" height="150"></td>
+      <td><img src="./imgs/geolife_driver_000.png" alt="Image 5" width="150" height="150"></td>
+      <td><img src="./imgs/geolife_driver_000_r5_folium_heatmap.png" alt="Image 6" width="150" height="150"></td>
     </tr>
     <tr>
       <td><img src="./imgs/chengdu_osm_core.png" alt="Image 7" width="150" height="150"></td>
@@ -33,17 +33,29 @@ Maintained by AkaCoder404. Feel free to make pull requests to add new resources!
   </table>
 </div>
 
-## Project Structure
+# Project Structure
+- `code/` - contains code to run and evaluate state of art methods.
+- `docs/` - contains information docs about diffiferent methods, datasets, etc.
 - `vis/` - contains mostly `.ipynb` files to visualize specific datasets and do some exploratory data analysis (EDA) on them
 - `imgs/` - contains saved images
 - `config` - contains config files for SUMO
 - `datasets.py` - contains code and resources to download various datasets
 
-## Applications
-- Trajectory Data Classification
-- Trajectory Data Clustering
-- Trajectory Data Mining
+# Research Landscape
+This is an overview of the current research landscape regarding trajectory data. We classify into three general directions: (1) Analysis, (2) Storage and Management, (3) Protection.
 
+## Analysis
+### Classification
+### Clustering
+### Outlier / Anomoly Detection
+### Pattern Mining
+## Storage & Management
+### Retrieval/Indexing
+### Compression
+## Protection
+### Anonymity (K-Anonymity, L-Diversity, T-Closeness)
+### Differential Privacy
+### Synthetic Data Generation
 
 ## Datasets
 Here is a collection of trajectory datasets used (and where to download)
@@ -54,16 +66,27 @@ Here is a collection of trajectory datasets used (and where to download)
 | Synthetic      |          |           |
 
 
+## Experimentation
+Results
+
+### Classification
+Here are results by implementation....
+
 ## Environment Setup
 ### Python
 Built with Python 3.12
 
 Use conda to install requirements.
 ```bash
-conda create sumo312 python==3.12
-conda activate sumo312
+conda create traj312 python==3.12
+conda activate traj312
 pip install -r requirements
 ```
+
+### Environment
+Hardware specs:
+- CPU Intel(R) Xeon(R) Platinum 8336C CPU @ 2.30GHz
+- GPU Nvidia GeForce RTX 4090
 
 ### SUMO
 Refer to [sumo download documentation](https://sumo.dlr.de/docs/Installing/index.html) for downloading details.

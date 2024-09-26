@@ -17,11 +17,13 @@ TLC = "https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page"
 TLC_2018 = ""
 NYC_BIKE = "https://citibikenyc.com/system-data"
 
-
 # Baidu Drive (China)
 BAIDU_TDRIVE = ""
 BAIDU_PORTOCITY = ""
 BAIDU_GEOLIFE = ""
+BAIDU_ROMA = ""
+BAIDU_SANFRANCISCO = ""
+BAIDU_BRIGHTKITE = ""
 BAIDU_FORSQUARE = ""
 
 

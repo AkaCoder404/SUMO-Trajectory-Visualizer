@@ -7,4 +7,8 @@ cache/
 */cache/*
 out/
 
+# Object files
+*.pickle
+*.pkl
+
 __pycache__/*

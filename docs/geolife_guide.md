@@ -1,6 +1,6 @@
 # Geolife User Guide
 
-This a MD guide for the geolife dataset. Directly copied from the user guide provided when downloading geolife dataset.
+This is a MD guide for the geolife dataset. Directly copied from the user guide provided when downloading geolife dataset.
 
 # User Guide Version 1.3 (2012/08/01)
 
